@@ -1,1 +1,0 @@
-# joshua-caleb-ignacio.github.io
