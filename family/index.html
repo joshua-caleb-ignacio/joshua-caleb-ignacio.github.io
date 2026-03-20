@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-us">
 
 <head>
@@ -8,13 +8,14 @@
 
   <link rel="shortcut icon" href="https://arbyn.argabioso.com/assets/icons/favicon.ico" />
 
-  <title>Joshua Caleb Acosta Ignacio - Family Tree</title>
+  <title>Ira Mae Acosta Ignacio - Family Tree</title>
 
   <link href="https://getbootstrap.com/docs/5.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,100..700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=open_in_new" />
 
   <link rel="stylesheet" href="https://arbyn.argabioso.com/shared/css/fonts.css" />
   <link rel="stylesheet" href="https://arbyn.argabioso.com/family/css/main.css" />
@@ -31,39 +32,27 @@
       <h5 class="offcanvas-title" id="personName"></h5>
       <button type="button" id="offcanvasCloseBtn" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
-    <div id="personDetailsDesc" class="offcanvas-body">
-      <!-- <p id="personDetailsDesc"></p> -->
-    </div>
+    <div id="personDetailsDesc" class="offcanvas-body"></div>
   </div>
 
-  <footer class="hidden">
-    <span>Joshua Caleb Acosta Ignacio - Family Tree Data &copy; <span id="datestamp">2025</span></span>
-  </footer>
-
-  <script src="https://getbootstrap.com/docs/5.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://arbyn.argabioso.com/shared/js/extend.js"></script>
 
-  <script src="https://arbyn.argabioso.com/family/js/chart.js"></script>
-  <script src="https://arbyn.argabioso.com/family/js/utils.js"></script>
+  <script src="js/bootstrap/dom/manipulator.js"></script>
+  <script src="js/bootstrap/dom/data.js"></script>
+  <script src="js/bootstrap/dom/selector-engine.js"></script>
+  <script src="js/bootstrap/dom/event-handler.js"></script>
+  <script src="js/bootstrap/base-component.js"></script>
+  <script src="js/bootstrap/offcanvas.js"></script>
 
-  <script src="https://arbyn.argabioso.com/family/js/constants.js"></script>
-  <script src="https://arbyn.argabioso.com/family/js/markers.js"></script>
   <script src="https://arbyn.argabioso.com/family/js/data.js"></script>
 
-  <script src="js/stories.js"></script>
   <script src="js/data.js"></script>
 
-  <script src="https://arbyn.argabioso.com/family/js/preprocess.js"></script>
-  <script src="https://arbyn.argabioso.com/family/js/sidebar.js"></script>
-  <script src="https://arbyn.argabioso.com/family/js/sources.js"></script>
-  <script src="https://arbyn.argabioso.com/family/js/checks.js"></script>
-  <script src="https://arbyn.argabioso.com/family/js/template/utils.js"></script>
-  <script src="https://arbyn.argabioso.com/family/js/template/node.js"></script>
-  <script src="https://arbyn.argabioso.com/family/js/template/link.js"></script>
-  <script src="https://arbyn.argabioso.com/family/js/template/photo.js"></script>
-  <script src="https://arbyn.argabioso.com/family/js/template/markers.js"></script>
-  <script src="https://arbyn.argabioso.com/family/js/template/text.js"></script>
-  <script src="https://arbyn.argabioso.com/family/js/main.js"></script>
+  <script type="module" src="js/preprocess.js"></script>
+  <script type="module" src="js/tree.js"></script>
+  <script type="module" src="js/events.js"></script>
+
+  <script src="js/lightbox.js"></script>
 </body>
 
 </html>
